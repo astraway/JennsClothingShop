@@ -25,5 +25,7 @@ namespace JennsClothingShop.Models
         public int CategoryID { get; set; }
 
         public Category Category { get; set; }
+
+        public string Notes { get; set; }
     }
 }
